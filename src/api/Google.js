@@ -9,6 +9,7 @@ const config = {
 };
 
 async function GloginAsync() {
+    console.log('nose')
     try {
         const { type, accessToken } = await Google.logInAsync(config);
 
